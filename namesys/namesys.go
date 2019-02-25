@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	opts "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options/namesys"
 	lru "gx/ipfs/QmQjMHF8ptRgx4E57UFMiT4YM6kqaJeYxZ1MCDX23aw4rK/golang-lru"
 	path "gx/ipfs/QmR3bNAtBoTN6xZ2HQNqpRQARcDoazH9jU6zKUNjFyQKWS/go-path"
 	ci "gx/ipfs/QmTW4SdgBWq9GjsBsHeUx8WuGxzhgzAf88UMH2w62PC8yK/go-libp2p-crypto"
@@ -12,7 +13,6 @@ import (
 	ds "gx/ipfs/QmUadX5EcvrBmxAV9sE7wUWtWSqxns5K84qKJBixmcT1w9/go-datastore"
 	isd "gx/ipfs/QmZmmuAXgX73UQmX1jRKjTGmjzq24Jinqkq8vzkBtno4uX/go-is-domain"
 	routing "gx/ipfs/QmcxZXMqFu4vjLQRfG2tAcg6DPQNurgZ2SQ5iQVk6dXQjn/go-libp2p-routing"
-	opts "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options/namesys"
 	mh "gx/ipfs/QmerPMzPk1mJVowm8KgmoknWa4yCYvvugMPsgWmDNUvDLW/go-multihash"
 )
 

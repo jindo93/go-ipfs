@@ -9,10 +9,10 @@ import (
 	util "github.com/ipfs/go-ipfs/blocks/blockstoreutil"
 	cmdenv "github.com/ipfs/go-ipfs/core/commands/cmdenv"
 
+	coreiface "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
+	options "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options"
 	cmds "gx/ipfs/QmQtQrtNioesAWtrx8csBvfY37gTe94d6wQ3VikZUjxD39/go-ipfs-cmds"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
-	coreiface "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
-	options "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options"
 	mh "gx/ipfs/QmerPMzPk1mJVowm8KgmoknWa4yCYvvugMPsgWmDNUvDLW/go-multihash"
 )
 

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"testing"
 
+	opts "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options/namesys"
 	path "gx/ipfs/QmR3bNAtBoTN6xZ2HQNqpRQARcDoazH9jU6zKUNjFyQKWS/go-path"
 	pstoremem "gx/ipfs/QmRhFARzTHcFh8wUxwN5KvyTGq73FLC65EfFAhz8Ng7aGb/go-libp2p-peerstore/pstoremem"
 	ci "gx/ipfs/QmTW4SdgBWq9GjsBsHeUx8WuGxzhgzAf88UMH2w62PC8yK/go-libp2p-crypto"
@@ -14,7 +15,6 @@ import (
 	"gx/ipfs/QmVytt7Vtb9jbGN2uNfEm15t78pBUjw1SS72nkJFcWYZwe/go-unixfs"
 	offroute "gx/ipfs/QmbRWQPxtwacR1M8phDY5Y2jJbS96HXZAsK5dKD7s12Wob/go-ipfs-routing/offline"
 	ipns "gx/ipfs/QmdboayjE53q27kq6zGk5vkx4u7LDGdcbVoi5NXMCtfiKS/go-ipns"
-	opts "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options/namesys"
 )
 
 type mockResolver struct {

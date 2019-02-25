@@ -12,6 +12,8 @@ import (
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 	pin "github.com/ipfs/go-ipfs/pin"
 
+	coreiface "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
+	options "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options"
 	cmds "gx/ipfs/QmQtQrtNioesAWtrx8csBvfY37gTe94d6wQ3VikZUjxD39/go-ipfs-cmds"
 	dag "gx/ipfs/QmScf5hnTEK8fDpRJAbcdMnKXpKUp1ytdymzXUbXDCFssp/go-merkledag"
 	cid "gx/ipfs/QmTbxNB1NwDesLmKTscr4udL2tVP7MaxvXnD1D9yX7g3PN/go-cid"
@@ -19,8 +21,6 @@ import (
 	offline "gx/ipfs/Qmb9fkAWgcyVRnFdXGqA6jcWGFj6q35oJjwRAYRhfEboGS/go-ipfs-exchange-offline"
 	verifcid "gx/ipfs/QmcVd2ApQdbfaYPKhCjj4WoQuxk4CMxPqmNpijKmFLh6qa/go-verifcid"
 	cmdkit "gx/ipfs/Qmde5VP1qUkyQXKCfmEUA7bP64V2HAptbJ7phuPp7jXWwg/go-ipfs-cmdkit"
-	coreiface "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
-	options "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options"
 	cidenc "gx/ipfs/Qmf3gRH2L1QZy92gJHJEwKmBJKJGVf8RpN2kPPD2NQWg8G/go-cidutil/cidenc"
 )
 

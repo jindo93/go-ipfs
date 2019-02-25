@@ -17,6 +17,9 @@ import (
 	namesys "github.com/ipfs/go-ipfs/namesys"
 	repo "github.com/ipfs/go-ipfs/repo"
 
+	"gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
+	"gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options"
+	nsopts "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options/namesys"
 	files "gx/ipfs/QmQmhotPUzVrMEWNK3x1R5jQ5ZHWyL7tVUrmRPjrBrvyCb/go-ipfs-files"
 	path "gx/ipfs/QmR3bNAtBoTN6xZ2HQNqpRQARcDoazH9jU6zKUNjFyQKWS/go-path"
 	config "gx/ipfs/QmRLDpfN3yCpHx4C6wwTkrFFK6bNxzBkgDbJPRsb5VLMQ2/go-ipfs-config"
@@ -24,9 +27,6 @@ import (
 	datastore "gx/ipfs/QmUadX5EcvrBmxAV9sE7wUWtWSqxns5K84qKJBixmcT1w9/go-datastore"
 	syncds "gx/ipfs/QmUadX5EcvrBmxAV9sE7wUWtWSqxns5K84qKJBixmcT1w9/go-datastore/sync"
 	id "gx/ipfs/QmcZUhA1xQo8meuYBFLcTHqQb2ogpDCTZUTfTrko7PUeHs/go-libp2p/p2p/protocol/identify"
-	"gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
-	"gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options"
-	nsopts "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options/namesys"
 )
 
 // `ipfs object new unixfs-dir`

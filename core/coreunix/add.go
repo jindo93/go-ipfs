@@ -11,6 +11,7 @@ import (
 
 	"github.com/ipfs/go-ipfs/pin"
 
+	coreiface "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
 	"gx/ipfs/QmQmhotPUzVrMEWNK3x1R5jQ5ZHWyL7tVUrmRPjrBrvyCb/go-ipfs-files"
 	dag "gx/ipfs/QmScf5hnTEK8fDpRJAbcdMnKXpKUp1ytdymzXUbXDCFssp/go-merkledag"
 	"gx/ipfs/QmTbxNB1NwDesLmKTscr4udL2tVP7MaxvXnD1D9yX7g3PN/go-cid"
@@ -24,7 +25,6 @@ import (
 	"gx/ipfs/QmaAvPYDfQ9CqJA2UUXqfFjnYuyGb342xrDLsHCrey1BEq/go-mfs"
 	logging "gx/ipfs/QmbkT7eMTyXfpeyB3ZMxxcxg7XH8t6uXp49jqzz4HB7BGF/go-log"
 	"gx/ipfs/QmdiZuFuiFD1Gbuu8PdqmsfrCR3z4QKSR2bN1NAvnJgTY7/go-ipfs-posinfo"
-	coreiface "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
 )
 
 var log = logging.Logger("coreunix")

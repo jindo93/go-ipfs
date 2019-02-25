@@ -19,6 +19,7 @@ import (
 	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
 	coremock "github.com/ipfs/go-ipfs/core/mock"
 
+	iface "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
 	u "gx/ipfs/QmNohiVssaPw3KVLZik59DBVGTSm2dGvYT9eoXt5DQ36Yz/go-ipfs-util"
 	files "gx/ipfs/QmQmhotPUzVrMEWNK3x1R5jQ5ZHWyL7tVUrmRPjrBrvyCb/go-ipfs-files"
 	fstest "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse/fs/fstestutil"
@@ -28,7 +29,6 @@ import (
 	chunker "gx/ipfs/QmYmZ81dU5nnmBFy5MmktXLZpt8QCWhRJd6M1uxVF6vke8/go-ipfs-chunker"
 	ipld "gx/ipfs/QmZ6nzCLwGLVfRzYLpD7pW6UNuBDKEcA2imJtVpbEx2rxy/go-ipld-format"
 	ci "gx/ipfs/QmeFVdhzY13YZPWxCiQvmLercrumFRoQZFQEYw2BtzyiQc/go-testutil/ci"
-	iface "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
 )
 
 func maybeSkipFuseTests(t *testing.T) {

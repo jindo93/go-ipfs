@@ -15,6 +15,7 @@ import (
 	"github.com/ipfs/go-ipfs/pin/gc"
 	"github.com/ipfs/go-ipfs/repo"
 
+	coreiface "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core"
 	files "gx/ipfs/QmQmhotPUzVrMEWNK3x1R5jQ5ZHWyL7tVUrmRPjrBrvyCb/go-ipfs-files"
 	config "gx/ipfs/QmRLDpfN3yCpHx4C6wwTkrFFK6bNxzBkgDbJPRsb5VLMQ2/go-ipfs-config"
 	dag "gx/ipfs/QmScf5hnTEK8fDpRJAbcdMnKXpKUp1ytdymzXUbXDCFssp/go-merkledag"
@@ -25,7 +26,6 @@ import (
 	blockstore "gx/ipfs/QmXjKkjMDTtXAiLBwstVexofB8LeruZmE2eBd85GwGFFLA/go-ipfs-blockstore"
 	blocks "gx/ipfs/QmYYLnAzR28nAQ4U5MFniLprnktu6eTFKibeNt96V21EZK/go-block-format"
 	pi "gx/ipfs/QmdiZuFuiFD1Gbuu8PdqmsfrCR3z4QKSR2bN1NAvnJgTY7/go-ipfs-posinfo"
-	coreiface "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core"
 )
 
 const testPeerID = "QmTFauExutTsy4XP6JbMFcw2Wa9645HJt2bTqL6qYDCKfe"

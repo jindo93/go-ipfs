@@ -5,6 +5,7 @@ import (
 	"strings"
 	"time"
 
+	opts "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options/namesys"
 	path "gx/ipfs/QmR3bNAtBoTN6xZ2HQNqpRQARcDoazH9jU6zKUNjFyQKWS/go-path"
 	cid "gx/ipfs/QmTbxNB1NwDesLmKTscr4udL2tVP7MaxvXnD1D9yX7g3PN/go-cid"
 	peer "gx/ipfs/QmTu65MVbemtUxJEWgsTtzv9Zv9P8rvmqNA4eG9TrTRGYc/go-libp2p-peer"
@@ -14,7 +15,6 @@ import (
 	ipns "gx/ipfs/QmdboayjE53q27kq6zGk5vkx4u7LDGdcbVoi5NXMCtfiKS/go-ipns"
 	pb "gx/ipfs/QmdboayjE53q27kq6zGk5vkx4u7LDGdcbVoi5NXMCtfiKS/go-ipns/pb"
 	proto "gx/ipfs/QmddjPSGZb3ieihSseFeCfVRpZzcqczPNsD2DvarSwnjJB/gogo-protobuf/proto"
-	opts "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options/namesys"
 	mh "gx/ipfs/QmerPMzPk1mJVowm8KgmoknWa4yCYvvugMPsgWmDNUvDLW/go-multihash"
 )
 

@@ -608,9 +608,9 @@
     },
     {
       "author": "magik6k",
-      "hash": "QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr",
+      "hash": "QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz",
       "name": "interface-go-ipfs-core",
-      "version": "0.1.9"
+      "version": "0.2.0"
     }
   ],
   "gxVersion": "0.10.0",

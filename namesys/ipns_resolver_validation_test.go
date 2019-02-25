@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	opts "gx/ipfs/QmNk3oZXh51B2Es72TTbLuHorvUL3487DGDZ64YjjubvGz/interface-go-ipfs-core/options/namesys"
 	u "gx/ipfs/QmNohiVssaPw3KVLZik59DBVGTSm2dGvYT9eoXt5DQ36Yz/go-ipfs-util"
 	path "gx/ipfs/QmR3bNAtBoTN6xZ2HQNqpRQARcDoazH9jU6zKUNjFyQKWS/go-path"
 	pstore "gx/ipfs/QmRhFARzTHcFh8wUxwN5KvyTGq73FLC65EfFAhz8Ng7aGb/go-libp2p-peerstore"
@@ -20,7 +21,6 @@ import (
 	ropts "gx/ipfs/QmcxZXMqFu4vjLQRfG2tAcg6DPQNurgZ2SQ5iQVk6dXQjn/go-libp2p-routing/options"
 	ipns "gx/ipfs/QmdboayjE53q27kq6zGk5vkx4u7LDGdcbVoi5NXMCtfiKS/go-ipns"
 	testutil "gx/ipfs/QmeFVdhzY13YZPWxCiQvmLercrumFRoQZFQEYw2BtzyiQc/go-testutil"
-	opts "gx/ipfs/QmeWKXQfEqbtUDCiQBAHzSZDja9br5LdPgk8eHu86oJxgr/interface-go-ipfs-core/options/namesys"
 )
 
 func TestResolverValidation(t *testing.T) {
